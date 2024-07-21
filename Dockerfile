@@ -1,17 +1,19 @@
-# Gunakan image Python sebagai base
+# Gunakan image Python sebagai base image
 FROM python:3.9-slim
 
-# Tentukan direktori kerja di dalam container
+# Set lingkungan kerja
 WORKDIR /app
 
 # Salin file requirements.txt ke dalam container
 COPY requirements.txt .
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Jalankan skrip build dependencies
+COPY build_dependencies.sh .
+RUN chmod +x build_dependencies.sh
+RUN ./build_dependencies.sh
 
-# Salin seluruh kode sumber ke dalam container
+# Salin semua file ke dalam container
 COPY . .
 
-# Tentukan perintah yang akan dijalankan saat container di-start
-CMD ["python", "-m", "main"]
+# Jalankan aplikasi
+CMD ["python", "main.py"]

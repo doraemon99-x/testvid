@@ -1,3 +1,7 @@
-#!/bin/bash
-# Skrip untuk menginstall dependencies saat build
-pip install --no-cache-dir -r requirements.txt
+#!/bin/sh
+
+# Update package list dan install python3-pip jika belum terinstall
+apt-get update && apt-get install -y python3-pip
+
+# Install dependencies dari requirements.txt
+pip3 install -r requirements.txt

@@ -24,7 +24,7 @@ def job(url):
 tasks = [
     {
         "url": "https://tipiku.my.id/vidmpd/tv.php?id=6685",
-        "time": "00:58",
+        "time": "01:22",
         "date": "2024-07-22"
     },
     {

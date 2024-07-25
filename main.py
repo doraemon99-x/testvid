@@ -22,20 +22,45 @@ def job(url):
 
 # Daftar URL dan waktu eksekusi
 tasks = [
-    {
-        "url": "https://tipiku.my.id/vidmpd/tv.php?id=6685",
-        "time": "01:48",
-        "date": "2024-07-22"
-    },
-    {
-        "url": "https://tipiku.my.id/vidmpd/tv.php?id=17579",
-        "time": "14:55",
-        "date": "2024-07-22"
+     {
+        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=206",
+        "time": "10:52",
+        "date": "2024-07-25"
     },
         {
-        "url": "https://tipiku.my.id/vidmpd/tv.php?id=17584",
+        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=206",
+        "time": "13:20",
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17579",
+        "time": "15:00",
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17601",
+        "time": "15:00",
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17584",
         "time": "15:30",
-        "date": "2024-07-22"
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=206",
+        "time": "16:20",
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17599",
+        "time": "18:55",
+        "date": "2024-07-25"
+    },
+    {
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17585",
+        "time": "19:30",
+        "date": "2024-07-25"
     }
     # Tambahkan tugas lainnya di sini
 ]
